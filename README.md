@@ -67,18 +67,12 @@ For a quick run without Postgres, the app falls back to an in-memory DB.
 - `POST /api/devices/{id}/incidents` - create incident for a device
 - `POST /api/telemetry` - lightweight status update endpoint
 
-**Boas Práticas Demonstradas**
+**Demonstrated Good Practices**
 
 - Clean Architecture layering
 - DI with `IServiceCollection`
 - Global exception middleware (see `Program.cs`)
 - Unit tests for application logic
-
-If you want, I can:
-- Run `dotnet` commands to build and test (if .NET SDK is available).
-- Add PostgreSQL EF Core provider and migrations.
-- Expand unit tests to cover major use cases.
-
 ---
 
-Created by: FieldDevice Monitoring API scaffolder
+Created by: Junny
