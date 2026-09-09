@@ -34,7 +34,13 @@ docker-compose up -d
 ```
 
 3. Update connection string (or use env var `CONNECTION_STRING`).
-4. Run the API (requires .NET SDK 10+):
+4. Install the .NET SDK and ASP.NET Core runtime (Arch Linux):
+
+```bash
+sudo pacman -S dotnet-sdk aspnet-runtime
+```
+
+5. Run the API (requires .NET 10):
 
 ```bash
 cd src/FieldDevice.Api
