@@ -34,7 +34,7 @@ docker-compose up -d
 ```
 
 3. Update connection string (or use env var `CONNECTION_STRING`).
-4. Run the API (requires .NET SDK 7+):
+4. Run the API (requires .NET SDK 10+):
 
 ```bash
 cd src/FieldDevice.Api
